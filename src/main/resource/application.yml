@@ -1,0 +1,14 @@
+server:
+   port: 8080
+   servlet:
+       context - path: /new/api
+       
+spring:
+   datasource:
+     driver -class -name: com.mysl.jdbc.Driver 
+     username: root
+     url: jdbc:mysql://localhost:3306/microuser?useSSL=false
+     password: Mar@1015dec
+jpa:
+   hibernate:
+      ddl - auto : update
